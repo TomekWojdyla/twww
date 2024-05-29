@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Retro MRP</title>
+  </head>
+  <body>
+    <header>
+      <h1 id="title">Retro MRP mock-up</h1>
+      <p class="between">Kapusta-Cwikla-Wojdyla Inc.</p>
+      <button class="btn again">Start again</button>
+      <div class="titleblock">Feed the monster with data...</div>
+    </header>
+    <main>
+      <section class="input-top">
+        <button class="btn section-btn" id="add-product-btn">Add product</button>
+        <button class="btn section-btn save-btn" id="save-product-btn">Save product</button>
+        <div class="input-product" id = "product-input"></div>
+        <div class="description" id="product-structure"></div>
+      </section>
+      <section class="input">
+        <button class="btn section-btn" id="add-stock-btn" onclick="addStock()">Add stock</button>
+        <button class="btn section-btn save-btn" id="save-stock-btn" onclick="saveStock()">Save stock</button>
+        <div class="input-stock" id="input-stock"></div>
+      </section>
+      <section class="input">
+        <button class="btn section-btn" id="add-order-btn" onclick="addOrder()">Add order</button>
+        <button class="btn section-btn save-btn" id="save-order-btn" onclick="saveOrder()">Save order</button>
+        <div class="input-section-order" id="input-order"></div>
+      </section>
+      <section class="input">
+        <button class="btn magic-btn" id="calculations" onclick="createPlan()">Run magic...</button>
+        <div class="output-section output-bottom" id="calculation-results"></div>
+      </section>
+      <section>
+        <div class="modal">
+          <button class="close-modal">&times;</button>
+          <h1 class = "text-OK">Welcome to Retro MRP Project!</h1>
+          <p class = "text-modal">Please visit our <a href="./instructions.html" target="_blank">Instructions</a> page and try it out!</p>
+        </div>
+        <div class="overlay"></div>
+      </section>
+    </main>
+    <script src="frontScript.js"></script>
+    <script src="createPlanScript.js"></script>
+    <script src="modalScript.js"></script>
+  </body>
+</html>

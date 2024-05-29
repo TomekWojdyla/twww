@@ -1,0 +1,374 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Press Start 2P', sans-serif;
+  color: #eee;
+  background-color: #222;
+  /* background-color: #60b347; */
+}
+
+/* LAYOUT */
+header {
+  position: relative;
+  height: 20vh;
+  border-bottom: 7px solid #eee;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.input-top {
+  border-bottom: 7px solid #eee;
+  margin-top: 8rem;
+}
+
+.input {
+  border-bottom: 7px solid #eee;
+  margin-top: 2rem;
+}
+
+.instr {
+  border-bottom: 7px solid #eee;
+  margin-top: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 4rem;
+  line-height: 10rem;
+}
+
+.input-section-content-L0 {
+  margin-top: 4rem;
+  visibility: visible;
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+}
+
+.input-section-content-L1 {
+  margin-top: 2rem;
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+}
+
+.input-section-content-L2 {
+  margin-top: 2rem;
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+}
+
+.input-stock-L0 {
+  margin-top: 4rem;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+}
+
+.input-stock-L1 {
+  margin-top: 2rem;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+}
+
+.input-stock-L2 {
+  margin-top: 2rem;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+}
+
+.listing {
+  margin-left: 4rem;
+  line-height: 4rem;
+}
+
+.input-section-order {
+  margin-top: 2rem;
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+}
+
+.output-bottom {
+  margin-bottom: 2rem; 
+}
+
+.input-product {
+  margin-bottom: 2rem; 
+}
+
+.input-stock {
+  margin-bottom: 2rem; 
+}
+
+.input-order {
+  margin-bottom: 2rem; 
+}
+/* Three above can be merged into 1 */
+
+.description {
+  line-height: 3rem;
+  margin-left: 5rem;
+}
+
+main {
+  font-size: 2rem;
+  color: #eee;
+}
+
+/* ELEMENTS STYLE */
+#title {
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2.5rem;
+}
+
+.list-L0 {
+  margin-left: 2rem;
+  font-size: 2.5rem;
+}
+
+.list-L1 {
+  margin-left: 7rem;
+  font-size: 2rem;
+}
+
+.list-L2 {
+  margin-left: 12rem;
+  font-size: 1.5rem;
+}
+
+.list-inst {
+  margin-left: 7rem;
+  font-size: 2rem;
+  line-height: 3rem;
+  list-style-type: square;
+  margin-bottom: 3rem;
+}
+
+.titleblock {
+  background: #eee;
+  color: #333;
+  font-size: 4rem;
+  width: 100rem;
+  padding: 3rem 0rem;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
+
+.between {
+  font-size: 1.5rem;
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+}
+
+.again {
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+}
+
+.product_L0 {
+  background: none;
+  border: 4px solid #eee;
+  font-family: inherit;
+  color: inherit;
+  font-size: 2rem;
+  padding: 2.5rem;
+  width: 25rem;
+  text-align: center;
+  display: block;
+  margin-bottom: 3rem;
+}
+
+.btn {
+  border: none;
+  background-color: #eee;
+  color: #222;
+  font-size: 2rem;
+  font-family: inherit;
+  padding: 2rem 3rem;
+  cursor: pointer;
+}
+
+.section-btn {
+  margin-left: 2rem;
+}
+
+.magic-btn {
+  margin-left: 2rem;
+  background-color: green;
+  color: white;
+}
+
+.save-btn {
+  visibility: hidden;
+}
+
+.btn:hover {
+  background-color: #ccc;
+}
+
+.message {
+  margin-top: 8rem;
+  height: 3rem;
+}
+
+.text-OK {
+  color: green;
+}
+
+.text-error {
+  color: red;
+}
+
+.text-warning {
+  color: orange;
+}
+
+.text-primary {
+  color: skyblue;
+}
+
+table {
+  padding-top: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+td{
+  background: rgb(98, 90, 110);
+  border: 2px solid #eee;
+  font-family: inherit;
+  color: inherit;
+  height: 5rem;
+  font-size: 3rem;
+  text-align: center;
+  padding: 1rem;
+}
+th{
+  background-color: rgb(39, 43, 39);
+  border: 2px solid #eee;
+  font-family: inherit;
+  color: inherit;
+  height: 5rem;
+  font-size: 3rem;
+  text-align: center;
+  padding: 1rem;
+}
+.unachievable-message{
+  background: none;
+  font-family: inherit;
+  color: inherit;
+  font-size: 6rem;
+  padding: 2.5rem;
+  width: auto;
+  text-align: left;
+  margin-bottom: 3rem;
+}
+.error-message{
+  background: none;
+  font-family: inherit;
+  color: inherit;
+  font-size: 6rem;
+  padding: 2.5rem;
+  width: auto;
+  text-align: left;
+  margin-bottom: 3rem;
+}
+.types-heading{
+  background: none;
+  font-family: inherit;
+  color: inherit;
+  font-size: 3rem;
+  padding: 2.5rem;
+  text-align: left;
+  margin-top: 2rem;
+}
+
+/* CLASSES TO MAKE MODAL WORK */
+.hidden {
+  display: none;
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  text-align: center;
+  background-color: white;
+  padding: 6rem;
+  border-radius: 5px;
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+  z-index: 10;
+
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(5px);
+  z-index: 5;
+}
+
+.close-modal {
+  position: absolute;
+  top: 1.2rem;
+  right: 2rem;
+  font-size: 5rem;
+  color: #333;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+.text-modal {
+  color: black;
+  margin-top: 3rem;
+}
