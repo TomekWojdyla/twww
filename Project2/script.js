@@ -122,13 +122,13 @@ btnManual.addEventListener('click', function () {
   document.getElementById('manualText').innerHTML = `
       <button class="close--manual" onclick="closeManual()">&times;</button>
       <h2 class="name">PIG GAME MANUAL</h2>
-      <p class="current-score">1. Player 1 starts the game and rolls the dice.</p>
-      <p class="current-score">2. If the number on the dice is different than '1', the number is added to current score.</p>
-      <p class="current-score">3. Player can continue rolling the dice or 'Hold' and save current score to his total score.</p>
-      <p class="current-score">4. After 'Holding' the score Player 2 takes over the game and starts his turn from current score equal to '0'.</p>
-      <p class="current-score">5. If the number on the rolled dice equals '1', player looses his current score and turn.</p>
-      <p class="current-score">6. Game finish when first player will reach the total score of 100 points.</p>
-      <p class="current-score">7. At any point of the game players can press 'New game' button to start over.</p>
+      <p class="modal-text">1. Player 1 starts the game and rolls the dice.</p>
+      <p class="modal-text">2. If the number on the dice is different than '1', the number is added to current score.</p>
+      <p class="modal-text">3. Player can continue rolling the dice or 'Hold' and save current score to his total score.</p>
+      <p class="modal-text">4. After 'Holding' the score Player 2 takes over the game and starts his turn from current score equal to '0'.</p>
+      <p class="modal-text">5. If the number on the rolled dice equals '1', player looses his current score and turn.</p>
+      <p class="modal-text">6. Game finish when first player will reach the total score of 100 points.</p>
+      <p class="modal-text">7. At any point of the game players can press 'New game' button to start over.</p>
       <h2 class = "name">ENJOY! 😎</h2>
       <img src='./gameLogic/pig-game-flowchart.png' width='100%'></img>`;
 });
